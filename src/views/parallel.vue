@@ -21,6 +21,8 @@ export default {
       swiperOption: {
         slidesPerView: 'auto',
         watchSlidesProgress: true,
+        slidesOffsetBefore: 37,
+        spaceBetween: 17,
         centeredSlides: true,
         init: false,
         on: {
@@ -28,21 +30,9 @@ export default {
             for (let i = 0; i < this.slides.length; i++) {
               const slide = this.slides.eq(i)
               const slideProgress = this.slides[i].progress
-              console.log(`slideProgress${i}`, slideProgress)
 
-              let modify = 0
-              if (parseInt(Math.abs(slideProgress)) > 0) {
-                modify = Math.abs(slideProgress) * 0.1 + 1
-              }
-              const translate = slideProgress * modify * 150 + 'px'
               const scale = 1 - Math.abs(slideProgress) / 5
-              const zIndex = 99 - Math.abs(Math.round(10 * slideProgress))
-              slide.transform(`translateX(${translate}) scale(${scale})`)
-              slide.css('zIndex', zIndex)
-              slide.css('opacity', 1)
-              if (parseInt(Math.abs(slideProgress)) > 1) {
-                slide.css('opacity', 0)
-              }
+              slide.transform(`scale3d(${scale}, ${scale}, 1)`)
             }
           },
           slideChange: function() {

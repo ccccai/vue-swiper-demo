@@ -28,7 +28,6 @@ export default {
             for (let i = 0; i < this.slides.length; i++) {
               const slide = this.slides.eq(i)
               const slideProgress = this.slides[i].progress
-              console.log(`slideProgress${i}`, slideProgress)
 
               let modify = 0
               if (parseInt(Math.abs(slideProgress)) > 0) {

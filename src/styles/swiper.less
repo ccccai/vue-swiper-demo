@@ -1,0 +1,32 @@
+.swiper-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  .show-swiper {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    .swiper-slide {
+      width: 500px;
+      // 表示所有属性都有动作效果，过度时间为0.4s，以慢速开始和结束的过渡效果
+      transition: all .4s cubic-bezier(.4, 0, .2, 1);
+      
+      .swiper-item {
+        width: 100%;
+        height: 500px;
+        background: rgb(140, 172, 134);
+        border-radius: 6px;
+        color: orangered;
+        font-size: 24px;
+        line-height: 1.5;
+        border: 1px solid orangered;
+      }
+    }
+  }
+}

@@ -1,5 +1,17 @@
 # vue-swiper-demo
-基于Vue-Awesome-Swiper实现的滑动轮播项目，有旋转叠加和平移两个效果
+基于Vue-Awesome-Swiper + vue-cli3实现的滑动轮播项目，有旋转叠加和平移两个效果
+
+- 1.旋转叠加
+![image](https://github.com/ccccai/vue-swiper-demo/blob/master/src/assets/rotate.gif)
+
+- 2.平移
+![image](https://github.com/ccccai/vue-swiper-demo/blob/master/src/assets/parallel.gif)
+
+### 运行项目
+``` bash
+npm install
+npm run serve
+```
 
 
 # Vue-Awesome-Swiper 介绍

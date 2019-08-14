@@ -1,10 +1,9 @@
-# vue-swiper-demo
-基于Vue-Awesome-Swiper + vue-cli3实现的滑动轮播项目，有旋转叠加和平移两个效果
+# 基于Vue-Awesome-Swiper + vue-cli3实现的滑动轮播项目，有旋转叠加和平移两个效果
 
-- 1.旋转叠加
+- 1. 旋转叠加
 ![image](https://github.com/ccccai/vue-swiper-demo/blob/master/src/assets/rotate.gif)
 
-- 2.平移
+- 2. 平移
 ![image](https://github.com/ccccai/vue-swiper-demo/blob/master/src/assets/parallel.gif)
 
 ### 运行项目
@@ -13,8 +12,10 @@ npm install
 npm run serve
 ```
 
+---------------------------------------------------------------------------------------------
 
-# Vue-Awesome-Swiper 介绍
+
+## Vue-Awesome-Swiper 介绍
 [Swiper4](http://www.swiper.com.cn) component for Vue, support pc and mobile, SPA and SSR.
 
 基于 [Swiper4](http://www.swiper.com.cn)、适用于 Vue 的轮播组件，支持服务端渲染和单页应用。

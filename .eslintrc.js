@@ -23,6 +23,15 @@ module.exports = {
   // add your custom rules here
   //it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
+    // 'prettier/prettier': [
+    //   'error',
+    //   {
+    //     semi: false,
+    //     singleQuote: true,
+    //     trailingComma: 'none',
+    //     bracketSpacing: true
+    //   }
+    // ],
     'vue/max-attributes-per-line': [
       2,
       {

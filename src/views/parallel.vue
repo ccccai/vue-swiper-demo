@@ -27,6 +27,10 @@ export default {
         spaceBetween: 17,
         centeredSlides: true,
         init: false,
+        longSwipesRatio: 0.1,
+        touchReleaseOnEdges: true,
+        observer: true, // 修改swiper自己或子元素时，自动初始化swiper
+        observeParents: true, // 修改swiper的父元素时，自动初始化swiper
         on: {
           progress: function() {
             for (let i = 0; i < this.slides.length; i++) {
